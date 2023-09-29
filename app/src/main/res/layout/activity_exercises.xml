@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3B4B4"
+    tools:context=".Exercises">
+
+    1.
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="330dp"
+        android:id="@+id/card1"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:cardElevation="25dp"
+        app:cardCornerRadius="10dp"
+        tools:ignore="OnClick">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/alata"
+                android:paddingLeft="5dp"
+                android:id="@+id/txt1"
+                android:text="Strength Training"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textSize="25sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/stg"
+                android:layout_width="380dp"
+                android:layout_height="350dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:src="@drawable/stg1" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    2.
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="350dp"
+        android:id="@+id/card2"
+        android:layout_below="@id/card1"
+        android:layout_marginLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:cardElevation="25dp"
+        app:cardCornerRadius="10dp"
+        tools:ignore="OnClick">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/alata"
+                android:paddingLeft="5dp"
+                android:text="Yoga Cardio And More"
+                android:textAlignment="center"
+                android:textColor="#03A9F4"
+                android:textSize="25sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/yoga"
+                android:layout_width="380dp"
+                android:layout_height="330dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:src="@drawable/yoga" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

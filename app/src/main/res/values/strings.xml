@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FitBuddy</string>
+    <!--    normal weight non-veg weight gain-->
+    <string name="br">2 egg brown bread sandwich + green chutney + 1 cup milk + 3 cashews + 4 almonds + 2 walnuts</string>
+    <string name="md">1 cup banana shake</string>
+    <string name="lh">1 cup arhar dal + 1 cup potato curry + 3 chapatti + 1/2 cup rice + 1/2 cup low fat curd + salad</string>
+    <string name="ev">1 cup strawberry smoothie + 1 cup vegetable poha</string>
+    <string name="dn">1.5 cup chicken curry + 3 chapatti + salad</string>
+
+    <!--    normal weight veg weight gain-->
+    <string name="br1">Vegetable stuffed paratha, Curd,Or Masala Dosa, Sambar, Chutney,Or mung dal chilla (pancake ) with paneer stuffing,Or Omlete, Toasted bread</string>
+    <string name="md1">Groundnut chikki/ Dry Fruit chikki,Roasted Soyabean/ Almonds,Lassi</string>
+    <string name="lh1">Chapati,Veg-Curry,Sabzi(potato/ cauliflower/ cabbage/ ladyfinger/bottle gourd/ ridge gourd/ brinjal etc),Dal/legumes (soybean / moth/ mung etc)Rice/pulav</string>
+    <string name="ev1">Tea/Coffee,Cookies,Groundnut chikki/ DryFruit chikki,Roasted Soybean/ Almonds</string>
+    <string name="dn1">Dinner same as lunch</string>
+
+    <!--    weight loss non veg diet plan-->
+    <string name="early">Green Tea or Tulsi Decoction /Lemon Water(Luke warm without sugar/salt/honey)</string>
+    <string name="br2">Brown Bread Sandwich + 2 Egg WhitesButter Milk/ Skimmed Milk</string>
+    <string name="md2">Orange or Seasonal Fruit+ Buttermilk / Roasted Chana Chat (1 fist)</string>
+    <string name="lh2">Chapatti/Missi Roti/Any Stuffed Roti without oil,except potato, Sweet Potato, Paneer,Seasonal Veg (mostly gourd family or green vegetables)Chicken Curry / Fish,Curd/Raita</string>
+    <string name="ev2">Chicken Soup (homemade) /Green tea + Marie Biscuit -2</string>
+    <string name="dn2">Boiled chicken / Roasted Chicken,Mixed salad,Oats (2tbsp) + Milk (200ml) + Apple (1)choppedDalia + Milk OR Meal Replacer (proteins) + Apple</string>
+
+    <!--    Vegetarian Diet Plan for Weight Loss-->
+
+    <string name="early1">Drink a glass of lemon water mixed with honey or coconut water</string>
+    <string name="br3">Flatten-rice mix veg poha (150 g)+ One fruit</string>
+    <string name="md3">1 banana and 1 cup of green tea.You can also eat idlis or masala/ plain dosa on certain days.</string>
+    <string name="lh3">2 roti (70g) + Tur dal (150g) +Kheera raita (150g) + Mix veg salad (150g)Or Someday 1 portion of brown rice with tofu + grilled tomatoes or vegetablesoup a green salad or 2 chapatis of whole wheat + mixed vegetables+ curd or yogurt</string>
+    <string name="ev3">Brown bread sandwich with low-fat cheese or baked beans grilled mushrooms or tea / coffee</string>
+    <string name="dn3">Curry or dal+2 chapatis + vegetable / paneer+salad</string>
+
+    <!--    Under Weight Veg Diet Plan for Weight-->
+    <string name="br4">100ml to 250ml Skimmed milk, 1-2 Bananas and with regular morning meal you take daily. This will give you a boost to your breakfast and approx. 350 calories and 10 – 12 grams of protein.</string>
+    <string name="md4">Intake of 5-7 Dried-Fruits like Almonds or other Nuts and a Bowl of Fruits or Green Grams (Sprouts) gives you approx. 400 calories and 15 grams of protein.</string>
+    <string name="lh4">3-4 Chapattis with Regular Toor Dal/Curry, 1 Bowl any Indian Sabzi, 1 Bowl of Vegetable Salad and Rice will give you approx. 700 – 750 calories and 30 grams of protein. If you prefer a glass of Lassi or Buttermilk, it will elevate your protein intake.</string>
+    <string name="ev4">A Bowl of Oat-meal or 5-6 Walnuts or any Healthy snack may give you 250 – 300 calories and 10 grams of protein.</string>
+    <string name="dn4">1-2 Rice Meal with Sprouts with your regular Dinner meal (as it may vary depending on your daily routine) and a small bowl of Curd will give you 600 calories and 20 – 25 grams of protein.</string>
+    <string name="bedtime">A Milkshake with several Fruits or walnuts/almonds may give you 300 calories and 10 grams of protein.</string>
+
+    <!--    Under Weight Non-Veg Diet Plan for Weight-->
+
+    <string name="br5">100ml to 250ml Skimmed milk, a small plate of Omelet or Fried eggs with Bread will give you approx. 400 calories and 12 grams of protein. Intake of Bananas will give you a great boost to your calorie and protein goal.</string>
+    <string name="md5">5 to 6 Boiled Eggs with some Fruits or a glass of Juice will give you 450 calories and 15 grams of protein.</string>
+    <string name="lh5">3-4 Chapattis with 1 Bowl of Chicken Curry, 1 Bowl of Vegetable Salad, a glass of Lassi/Buttermilk with some Green Grams. You’ll be consuming 700 calories and 30 grams of protein.</string>
+    <string name="ev5"> 1-2 Cups of Coffee/Tea with some Biscuits gives you 200 calories and very little amount of protein. You can also eat an omelet to elevate your evening supper.</string>
+    <string name="dn5"> 1-2 Bowls of Rice with Regular Toor Dal, 1 Bowl Chicken/Fish/Mutton, with your regular Dinner meal (as it may vary depending on your daily routine) with some Sprouts will give you 750 calories and 25 grams of protein.</string>
+    <string name="bedtime1">A Milkshake with several Fruits or walnuts/almonds may give you 250 calories and 10 grams of protein.A total of 3050 Calories and 110 grams of protein will be consumed and gives you a great daily routine of regular diet for gaining weight.</string>
+
+
+</resources>

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FBB00D"
+    tools:context=".undernonveg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/nonveg"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/veg"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/nonveg1" />
+
+        <ImageView
+            android:id="@+id/veg"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/card1"
+            android:layout_marginLeft="220dp"
+            android:src="@drawable/veg1" />
+
+        1.
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:id="@+id/card1"
+            android:onClick="Card1"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:text="Status:-"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="5dp"
+                    android:textColor="#FBB00D"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Under Weight"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:id="@+id/card2"
+            android:onClick="Card2"
+            android:layout_below="@id/card1"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="25dp"
+            app:cardCornerRadius="10dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Your Diet Plan Is:-"
+                    android:textAlignment="textStart"
+                    android:textColor="#FBB00D"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        Breakfast Food:
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:id="@+id/card3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/card2"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FBB00D">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Breakfast (8:00-8:30AM)"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fd1"
+            android:layout_below="@id/card3"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="@string/br5"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        mid:-
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:id="@+id/card4"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fd1"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FBB00D">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Mid-Meal (11:00-11:30AM)"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        Mid Meal Food:
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fd2"
+            android:layout_below="@id/card4"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="@string/md5"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        lunch:-
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:id="@+id/card5"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fd2"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FBB00D">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Lunch (2:00-2:30PM)"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        Lunch:
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fd3"
+            android:layout_below="@id/card5"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="@string/lh5"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        6.
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:id="@+id/card6"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fd3"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FBB00D">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Evening (4:00-4:30PM)"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        Evening:
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fd4"
+            android:layout_below="@id/card6"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:text="@string/ev5"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        dinner:-
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:id="@+id/card7"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fd4"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FBB00D">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Dinner (8:00-8:30PM)"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        Dinner:
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fd6"
+            android:layout_below="@id/card7"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:text="@string/dn5"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        dinner:-
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="40dp"
+            android:id="@+id/card8"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/fd6"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FBB00D">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:paddingLeft="5dp"
+                    android:text="Bedtime"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        Dinner:
+        <androidx.cardview.widget.CardView
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:id="@+id/fd5"
+            android:layout_below="@id/card8"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            app:cardElevation="20dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/alata"
+                    android:text="@string/bedtime1"
+                    android:textAlignment="textStart"
+                    android:paddingLeft="5dp"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

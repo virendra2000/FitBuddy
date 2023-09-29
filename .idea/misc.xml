@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/drawable/border.xml" value="0.119" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/drawable/button.xml" value="0.119" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_bmi_calculator.xml" value="0.25" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_exercises.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_forget_password.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_normal_weight.xml" value="0.25" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_opt_menu.xml" value="0.22" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_over_weight.xml" value="0.25" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_profile_details.xml" value="0.22" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_reminder.xml" value="0.1859375" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_sign.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_strenght.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_under_weight.xml" value="0.22" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_undernonveg.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_veg_weightgain.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_videos.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_weightlossnonveg.xml" value="0.25" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_weightlossveg.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/activity_yoga.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/appbar.xml" value="0.2" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/layout/vegweight.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/r2h1l/AndroidStudioProjects/Fitbuddy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1105" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wtloss"
+    tools:context=".Videos">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relay1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/alata"
+            android:text="Diet Plan Videos For Weight Loss"
+            android:textColorHighlight="@color/black"
+            android:textAlignment="center"
+            android:textColor="#E009E8"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:id="@id/card1"
+            android:layout_below="@id/txt1"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="vu_wLKWMJIA" />
+
+        </androidx.cardview.widget.CardView>
+
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/card1"
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="cgxYNMTn8j4" />
+        </androidx.cardview.widget.CardView>
+        3.
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_below="@id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="gqNZDvI04qk" />
+        </androidx.cardview.widget.CardView>
+        4.
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_below="@id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="PTu9vUyfdN0" />
+        </androidx.cardview.widget.CardView>
+        5.
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_below="@id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="OrfmAAgKJmE" />
+        </androidx.cardview.widget.CardView>
+
+        weight gain:-
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/txt_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:fontFamily="@font/alata"
+            android:layout_below="@id/card5"
+            android:text="Diet Plan Videos For Weight Gain"
+            android:textColorHighlight="@color/black"
+            android:textAlignment="center"
+            android:textColor="#0F26F8"
+            android:textAllCaps="false"
+            android:textSize="20dp" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:id="@+id/wg1"
+            android:layout_below="@id/txt_2"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="WwASmxrIEiI" />
+
+        </androidx.cardview.widget.CardView>
+
+        2.
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/wg1"
+            android:id="@+id/wg2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="6ZgP8_xH93w" />
+        </androidx.cardview.widget.CardView>
+        3.
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wg3"
+            android:layout_below="@id/wg2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="qTf9mDtttDU" />
+        </androidx.cardview.widget.CardView>
+        4.
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wg4"
+            android:layout_below="@id/wg3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="WFKik6EXSOM" />
+        </androidx.cardview.widget.CardView>
+        5.
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wg5"
+            android:layout_below="@id/wg4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:cardElevation="25dp"
+            android:background="@color/white"
+            app:cardCornerRadius="40dp"
+            android:layout_margin="10dp"
+            tools:ignore="NotSibling,OnClick">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:autoPlay="false"
+                app:videoId="O_M5nfHTlls" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>
+

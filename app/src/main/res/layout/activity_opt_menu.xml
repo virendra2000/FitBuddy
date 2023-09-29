@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    tools:context=".opt_menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        1.-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/title"
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="50dp"
+            tools:ignore="OnClick">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/bdtxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="35dp"
+                    android:fontFamily="@font/amaranth_italic"
+                    android:text="FitBuddy"
+                    android:textAlignment="center"
+                    android:textColor="#0A5EB8"
+                    android:textSize="35sp" />
+
+                <ImageView
+                    android:id="@+id/lgbtn"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="300dp"
+                    android:layout_marginTop="12dp"
+                    android:padding="10dp"
+                    android:src="@drawable/logout" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        2.-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/title"
+            android:layout_margin="10dp"
+            android:onClick="Card2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="25dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/alata"
+                    android:text="BMI Calculator"
+                    android:textAlignment="textStart"
+                    android:textColor="#FBFAFA"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+<!--        3.-->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/card2"
+            android:layout_margin="10dp"
+            android:onClick="Card3"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="25dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/exercisebg">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/alata"
+                    android:text="Exercises"
+                    android:textAlignment="textStart"
+                    android:textColor="#FBFAFA"
+                    android:textSize="25sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+<!--        4.-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_below="@id/card3"
+            android:layout_margin="10dp"
+            android:onClick="Card4"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp"
+            tools:ignore="OnClick">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/videobackround">
+
+                <TextView
+                    android:id="@+id/vid_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="45dp"
+                    android:fontFamily="@font/alata"
+                    android:text="Diet Plan Video's"
+                    android:textAlignment="textStart"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="185dp"
+                    android:src="@drawable/video" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

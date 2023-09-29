@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".yoga">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_yg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alata"
+            android:textAllCaps="true"
+            android:text="Yoga Balance Workout Reps: 2–4 Hold: 5 breaths or 5-15 seconds"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+        <TextView
+            android:id="@+id/txt_yg1"
+            android:layout_below="@id/txt_yg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pose 1"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex1"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg1"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/yg1" />
+
+        <TextView
+            android:id="@+id/txt_yg2"
+            android:layout_below="@id/ex1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pose 2"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex2"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg2"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/yg2" />
+        <TextView
+            android:id="@+id/txt_yg3"
+            android:layout_below="@id/ex2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pose 3"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex3"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg3"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/yg3" />
+        <TextView
+            android:id="@+id/txt_yg4"
+            android:layout_below="@id/ex3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pose 4"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex4"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg4"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/yg5" />
+        <TextView
+            android:id="@+id/txt_yg5"
+            android:layout_below="@id/ex4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Cardio Exercises to do at home"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/txt_yg6"
+            android:layout_below="@id/txt_yg5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercises No:1"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex5"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg6"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/ex4" />
+        <TextView
+            android:id="@+id/txt_yg7"
+            android:layout_below="@id/ex5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercises No:2"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex6"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg7"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/cd2" />
+        <TextView
+            android:id="@+id/txt_yg8"
+            android:layout_below="@id/ex6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercises No:3"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex7"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg8"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/cd3" />
+        <TextView
+            android:id="@+id/txt_yg9"
+            android:layout_below="@id/ex7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercises No:4"
+            android:textAlignment="textStart"
+            android:textSize="25dp"
+            android:fontFamily="@font/alata"
+            android:textColor="@color/black"
+            />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/ex8"
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:layout_below="@id/txt_yg9"
+            android:background="@drawable/border"
+            android:padding="15dp"
+            android:src="@drawable/cd4" />
+
+    </RelativeLayout>
+
+</ScrollView>
