@@ -1,16 +1,12 @@
 # FitBuddy
 
-# FitBuddy
-
 FitBuddy is a simple application that helps users calculate their Body Mass Index (BMI) based on their height and weight. Additionally, it provides diet plans and suggestions tailored to the user's BMI status, such as Normal, Underweight, or Overweight.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
